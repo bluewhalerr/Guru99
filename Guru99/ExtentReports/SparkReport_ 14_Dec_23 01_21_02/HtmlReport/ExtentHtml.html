@@ -49,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Dec 6, 2023 08:29:21 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Dec 14, 2023 01:21:02 am</span>
 			</a>
 		</ul>
 	</div>
@@ -76,8 +76,9 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@invalidCredentials</a></li>
+					<li><a href='#'>@missingCredentials</a></li>
 					<li><a href='#'>@validCredentials</a></li>
+					<li><a href='#'>@invalidCredentials</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -138,7 +139,7 @@
                 </div>
                 <div class='block text-small'>
                     <span class='tooltipped' data-position='top' data-tooltip='100%'>
-                    <span class='strong'>4</span> scenarios passed</span>
+                    <span class='strong'>5</span> scenarios passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -158,7 +159,7 @@
                 </div>
                 <div class='block text-small'>
                     <span class='tooltipped' data-position='top' data-tooltip='100%'>
-                    <span class='strong'>17</span> steps passed</span>
+                    <span class='strong'>21</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -188,7 +189,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login in to Guru99 Demo website</span>
-						<span class='test-time'>Dec 6, 2023 08:29:22 pm</span>
+						<span class='test-time'>Dec 14, 2023 01:21:03 am</span>
 						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -201,7 +202,7 @@
 
 <div class='scenario node' test-id='2' status='pass'>
 
-	<span class='duration right label'>00 00 16.186</span>
+	<span class='duration right label'>00 00 16.527</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Login Successfully with valid test data</div>
 	</div>
@@ -218,12 +219,12 @@
 
 		</li>
 		<li test-id='5' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(stepDefination.loginSteps.the_user_enters_the_valid_user_id(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When the user enters the valid UserID "mngr538889"</div>
+			<div class="step-name" title="(stepDefination.loginSteps.the_user_enters_the_valid_user_id(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When the user enters the valid UserID "mngr543347"</div>
 
 
 		</li>
 		<li test-id='6' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(stepDefination.loginSteps.the_user_enters_the_valid_password(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And the user enters the valid Password "gepaqyb"</div>
+			<div class="step-name" title="(stepDefination.loginSteps.the_user_enters_the_valid_password(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And the user enters the valid Password "mYqAvup"</div>
 
 
 		</li>
@@ -241,7 +242,7 @@
 </div>
 <div class='scenario outline node' test-id='10' status='pass'>
 
-	<span class='duration right label'>00 00 43.189</span>
+	<span class='duration right label'>00 00 42.080</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Login Unsucesfully with Invalid test data</div>
 	</div>
@@ -330,6 +331,41 @@
 		</li>
 	</ul>
 </div>
+<div class='scenario node' test-id='32' status='pass'>
+
+	<span class='duration right label'>00 00 14.772</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Login Unsucesfully with missing credentials</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@missingCredentials</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='34' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(stepDefination.loginSteps.the_user_in_on_the_login_page_of_guru99())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given the user in on the login page of Guru99</div>
+
+
+		</li>
+		<li test-id='35' class='node when Pass' status='Pass'>
+			<div class="step-name" title="(stepDefination.loginSteps.the_user_enters_the_valid_user_id_and_password_as(java.lang.String,java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When the user enters the valid UserID " " and password as "gepaqyb"</div>
+
+
+		</li>
+		<li test-id='36' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(stepDefination.loginSteps.the_user_clicks_on_the_login_button())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And the user clicks on the Login button</div>
+
+
+		</li>
+		<li test-id='37' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(stepDefination.loginSteps.the_pop_up_appears_user_or_password_is_invalid_is_shown())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then the pop-up appears user or password is invalid is shown</div>
+
+
+		</li>
+	</ul>
+</div>
 					</div>
 				</li>
 			</ul>
@@ -374,14 +410,14 @@
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@invalidCredentials</span>
+						<span class='category-name'>@missingCredentials</span>
 						<span class='category-status right'>
-						<span class='label pass'>3</span>
+						<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 3</span>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
 							
 							
 						</div>
@@ -396,18 +432,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 6, 2023 08:29:38 pm</td>
-										<td class='linked' test-id='11'>Login Unsucesfully with Invalid test data</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-									<tr>
-										<td>Dec 6, 2023 08:29:53 pm</td>
-										<td class='linked' test-id='18'>Login Unsucesfully with Invalid test data</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-									<tr>
-										<td>Dec 6, 2023 08:30:08 pm</td>
-										<td class='linked' test-id='25'>Login Unsucesfully with Invalid test data</td>
+										<td>Dec 14, 2023 01:22:01 am</td>
+										<td class='linked' test-id='32'>Login Unsucesfully with missing credentials</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -439,8 +465,51 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 6, 2023 08:29:22 pm</td>
+										<td>Dec 14, 2023 01:21:03 am</td>
 										<td class='linked' test-id='2'>Login Successfully with valid test data</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@invalidCredentials</span>
+						<span class='category-status right'>
+						<span class='label pass'>3</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 3</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Dec 14, 2023 01:21:19 am</td>
+										<td class='linked' test-id='11'>Login Unsucesfully with Invalid test data</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 14, 2023 01:21:33 am</td>
+										<td class='linked' test-id='18'>Login Unsucesfully with Invalid test data</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 14, 2023 01:21:46 am</td>
+										<td class='linked' test-id='25'>Login Unsucesfully with Invalid test data</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -471,31 +540,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>4</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>17</div>
+					<div class='panel-lead'>21</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 6, 2023 08:29:21 pm</div>
+					<div class='panel-lead'>Dec 14, 2023 01:21:02 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 6, 2023 08:30:22 pm</div>
+			 		<div class='panel-lead'>Dec 14, 2023 01:22:16 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 01 00.149</div>
+					<div class='panel-lead'>00 01 14.424</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -531,8 +600,8 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@invalidCredentials</td>
-							<td>3</td>
+							<td>@missingCredentials</td>
+							<td>1</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -542,6 +611,15 @@
 						<tr>
 							<td>@validCredentials</td>
 							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@invalidCredentials</td>
+							<td>3</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -566,16 +644,16 @@
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				childCount: 4,
-				passChild: 4,
+				childCount: 5,
+				passChild: 5,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 17,
-				passGrandChild: 17,
+				grandChildCount: 21,
+				passGrandChild: 21,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -587,7 +665,7 @@
 		
 		<script>
 			var timeline = {
-			        "Login in to Guru99 Demo website":59.398
+			        "Login in to Guru99 Demo website":73.415
 			};
 		</script>
 		

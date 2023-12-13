@@ -7,8 +7,8 @@ Feature: Login in to Guru99 Demo website
 # Positive Testcase - Successfully logged in as Manager with valid credentials
 @validCredentials
 Scenario: Login Successfully with valid test data
-  When the user enters the valid UserID "mngr538889"
-  And the user enters the valid Password "gepaqyb"
+  When the user enters the valid UserID "mngr543347"
+  And the user enters the valid Password "mYqAvup"
   And the user clicks on the Login button
   Then the user should be logged in successfully and navigates to the Manager Page
 
